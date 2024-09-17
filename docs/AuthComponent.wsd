@@ -1,0 +1,34 @@
+@startuml
+
+package "Auth" {
+    package "Components" {
+        [New password] -- NewPasswordProps
+        [Recover] -- RecoverProps
+        [Register] -- RegisterProps
+    }
+
+    [<<screen>>\nLogin] as login
+
+    login --> NewPasswordProps
+    login --> RecoverProps
+    login --> RegisterProps
+
+    [<<service>>\nAuth] as authService
+    [<<service>>\nStorage] as storeService
+    storeService -- storeServiceInstance
+    
+    authService --> storeServiceInstance
+    [Browser] -- LocalStorage
+
+    storeService --> LocalStorage
+
+    authService ..> HTTP : use
+    authService -- authServiceInstance
+
+    login --> authServiceInstance
+    [New password] --> authServiceInstance
+    [Recover] --> authServiceInstance
+    [Register] --> authServiceInstance
+}
+
+@enduml

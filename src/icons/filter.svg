@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="15" viewBox="0 0 20 15">
+    <g data-name="Filter icon">
+        <path data-name="Path 1" d="M5.833 2.937A2.917 2.917 0 1 0 2.9 5.833h.02a2.907 2.907 0 0 0 2.913-2.896z" style="fill:#647382"/>
+        <path data-name="Path 2" d="M8.5 8.4a2.917 2.917 0 1 0 2.937-2.9h-.02A2.907 2.907 0 0 0 8.5 8.4z" transform="translate(5.667 3.667)" style="fill:#647382"/>
+        <path data-name="Line 1" transform="translate(10.833 3.005)" style="fill:none;stroke:#647382;stroke-linecap:round;stroke-linejoin:round" d="M0 0h8.333"/>
+        <path data-name="Line 2" transform="translate(.833 11.995)" style="fill:none;stroke:#647382;stroke-linecap:round;stroke-linejoin:round" d="M8.333 0H0"/>
+    </g>
+</svg>

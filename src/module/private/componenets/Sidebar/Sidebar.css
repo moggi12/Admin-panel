@@ -1,0 +1,22 @@
+.Background {
+    border-radius: 0 40px 40px 0;
+    background-color: #1e2335 !important;
+    padding: 100px 0 50px 50px;
+    color: #f5f5fa;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+}
+
+.header{
+    font-size: 24px;
+}
+
+.sidebar-content{
+    font-size: 18px;
+}
+
+.sidebar-content-text{
+    padding-bottom: 38px;
+    padding-top: 38px;
+    color: #FFFFFF;
+}

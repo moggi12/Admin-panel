@@ -1,0 +1,110 @@
+@import "/src/less/variables.less";
+@primary-1: rgba(30, 35, 53, 0.1);
+.io-table {
+  .ant-table {
+    overflow: hidden;
+    border: 1px solid @border-color;
+  }
+
+  tr,
+  thead,
+  tbody,
+  tr > th,
+  tr > td {
+    border: none !important;
+  }
+
+  tbody {
+    tr {
+      background-color: white;
+    }
+  }
+
+  &.table-striped tbody {
+    tr:nth-of-type(even) {
+      background-color: @bg-default;
+    }
+  }
+
+  tr
+    > td:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before,
+  .left-border::before {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: calc(100% - 20px);
+    background-color: #b3bfc6;
+    transform: translateY(-50%);
+    transition: background-color 0.3s;
+    content: "";
+  }
+
+  tr > th {
+    border-radius: 0% !important;
+
+    &:not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+      height: calc(100% - 20px);
+      background-color: white;
+    }
+  }
+
+  .ant-pagination-item-link,
+  .ant-pagination-item {
+    border-radius: @element-border-radius !important;
+    border-color: @border-color;
+  }
+
+  .ant-pagination-item {
+    &-active {
+      background-color: white !important;
+      border: 1px solid @border-color !important;
+    }
+
+    padding-top: 1px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .ant-pagination-prev,
+  .ant-pagination-next {
+    display: none;
+  }
+
+  .table-row-take-away > td {
+    background-color: #ffe6e6 !important;
+  }
+
+  .table-row-take-away-opaq > td {
+    background-color: #feecec !important;
+  }
+
+  .table-row-delivery > td {
+    background-color: #d7ffd7 !important;
+  }
+
+  .table-row-delivery-opaq > td {
+    background-color: #e7fee7 !important;
+  }
+
+  .ant-table-footer {
+    padding: 0;
+
+    .btn {
+      border-radius: 0%;
+      border: none;
+    }
+  }
+
+  .row-striped td {
+    background: @primary-1 !important;
+  }
+
+  .ant-table-container i {
+    font-size: 16px;
+  }
+
+  .ant-table-content {
+    overflow-x: auto;
+  }
+}

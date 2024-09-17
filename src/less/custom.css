@@ -1,0 +1,48 @@
+.ant-dropdown-menu{
+    width: 230px;
+}
+
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-operations-hidden{
+    display: none;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-operations{
+    display: none;
+}
+
+.list-icons{
+    width: 100%;
+    justify-content: center;
+}
+
+.list-icons-end{
+    width: 100%;
+    justify-content: end;
+}
+
+.ant-collapse > .ant-collapse-item {
+    border-bottom: 1px dashed #d9d9d9;
+}
+
+.ant-collapse > .ant-collapse-item:last-child {
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled){
+    background-color: #e0e0e0 !important;
+    font-weight: 500;
+}
+.btn-primary{
+    background-color: #000000;
+}
+
+.btn{
+    border-radius: 12px;
+}
+
+.btn-primary:hover{
+    background-color: #000000;
+}
+
+.ant-picker {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+.ant-tabs-ink-bar {
+    display: none;
+}
+.ant-tabs-tab-active{
+    background-color: #B3BFC6 !important;
+    border-radius: 40px;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #1E2335 !important;
+}
+.ant-tabs > .ant-tabs-nav{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+}
+.ant-tabs-tab{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.ant-tabs-nav-list{
+    width: 100%;
+}
+.ant-tabs-content-holder{
+    margin-left: 30px;
+    margin-right: 30px;
+}

@@ -1,0 +1,3 @@
+[submodule "src/shared"]
+	path = src/shared
+	url = https://gitlab.com/battushigtsogtbaatar/toki-admin-shared.git
